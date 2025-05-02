@@ -1,8 +1,6 @@
 import { adicionarItem } from "./script/adicionarElemento.js";
 const botaoAdicionarItem = document.getElementById('adicionar-item');
 
-adicionarItem('Lari')
-
 botaoAdicionarItem.addEventListener('click', (event) => {
     event.preventDefault()
     adicionarItem()
